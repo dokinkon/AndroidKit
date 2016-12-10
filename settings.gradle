@@ -1,1 +1,1 @@
-include ':androidkit', ':sample'
+include ':library', ':sample'
