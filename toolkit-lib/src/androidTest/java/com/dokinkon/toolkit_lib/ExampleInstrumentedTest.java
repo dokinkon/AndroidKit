@@ -1,4 +1,4 @@
-package com.dokinkon.sample;
+package com.dokinkon.toolkit_lib;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.dokinkon.sample", appContext.getPackageName());
+        assertEquals("com.dokinkon.toolkit_lib.test", appContext.getPackageName());
     }
 }

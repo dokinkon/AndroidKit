@@ -1,4 +1,4 @@
-package com.dokinkon.sample;
+package com.dokinkon.toolkit_lib;
 
 import org.junit.Test;
 

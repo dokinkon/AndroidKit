@@ -2,8 +2,6 @@ package com.dokinkon.androidkit;
 
 import android.support.annotation.NonNull;
 
-import javax.inject.Inject;
-import javax.inject.Singleton;
 
 import rx.Observable;
 import rx.subjects.PublishSubject;
@@ -11,10 +9,10 @@ import rx.subjects.SerializedSubject;
 import rx.subjects.Subject;
 
 
-@Singleton
+//@Singleton
 public class RxBus {
 
-    @Inject
+    //@Inject
     protected RxBus() {
 
     }
